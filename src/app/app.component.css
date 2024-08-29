@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bcimage {
+    background-image: url('/assets/bg-desktop-light.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-text {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .todo-container{
+    width: 70%;
+    height: 100%;
+  }
+
+  .todo-header{
+    width: 100%;
+  }
+
+  .container{
+    width: 100%;
+  }
